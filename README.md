@@ -3,24 +3,27 @@
 ## Internship
 CodeAlpha Cybersecurity Internship
 
-## Objective
-Perform a secure code review on a Python-based login system to identify vulnerabilities and recommend remediation measures.
+## Submitted By
+Nabhanya S Shetty  
+Jain University
+
+## Project Overview
+This project demonstrates a secure code review of a Python-based user login system. The review identifies common security vulnerabilities, evaluates their impact, and provides remediation recommendations following OWASP secure coding guidelines.
+
+## Vulnerabilities Identified
+- SQL Injection
+- Plaintext Password Storage
+- Hardcoded Credentials
+- Missing Input Validation
+- Verbose Error Handling
+- Lack of Account Lockout
+- Insecure Session Management
 
 ## Tools Used
 - Python
-- Bandit
+- Bandit (Static Analysis)
 - Manual Code Review
 
-## Vulnerabilities Identified
-1. SQL Injection
-2. Plaintext Password Storage
-3. Hardcoded Credentials
-4. Missing Input Validation
-5. Verbose Error Handling
-6. Lack of Account Lockout
-7. Insecure Session Management
+## Report
+The complete Secure Coding Review report is available in the repository.
 
-## Files
-- app_vulnerable.py
-- app_secure.py
-- Secure Coding Review Report
